@@ -14,7 +14,7 @@ SECRET_KEY = '#m3%k0qfd=3s+&0#!to0a6gvk(t^3*mmx@71^!1*m#!awe#1r)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-env.jhyqpf8k6q.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'classregister.apps.ClassregisterConfig',
     'storeregister.apps.StoreregisterConfig',
     'bootstrap4',
-    'cardnews.apps.CardnewsConfig',
+
 ]
 
 MIDDLEWARE = [
