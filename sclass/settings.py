@@ -9,12 +9,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = '#m3%k0qfd=3s+&0#!to0a6gvk(t^3*mmx@71^!1*m#!awe#1r)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["http://django-env.jhyqpf8k6q.us-west-2.elasticbeanstalk.com"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -29,9 +29,8 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'classregister.apps.ClassregisterConfig',
     'storeregister.apps.StoreregisterConfig',
-    'bootstrap4',
     'cardnews.apps.CardnewsConfig',
-
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -114,9 +113,7 @@ AUTH_USER_MODEL = "accounts.User"
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'storeregister', 'static'),
-    os.path.join(BASE_DIR, 'classregister', 'static')
-
+    os.path.join(BASE_DIR, 'sclass', 'static')
 ]
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
