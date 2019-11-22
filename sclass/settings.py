@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'classregister.apps.ClassregisterConfig',
     'storeregister.apps.StoreregisterConfig',
     'bootstrap4',
+    'cardnews',
 
 ]
 
