@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>내가 등록한 상점</h2>
+
+
+{% for store in stores.all %}
+
+<a href="{% url 'storeregister:detail' store.id %}">{{ store.store_title }}</a>
+
+{% endfor %}
+
+
+{% endblock %}
