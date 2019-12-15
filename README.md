@@ -34,13 +34,15 @@
 ## About The Project
 
 <div align="center">
-<br/>
-    <img src="https://user-images.githubusercontent.com/42693808/70762550-3fbdf380-1d94-11ea-8309-a1d110c7cc69.png" /> <br /><br />
-숙명여자대학교 AWS WIC 해커톤 프로젝트 <br/>
+    <br/>
+    <img src="https://user-images.githubusercontent.com/42693808/70762550-3fbdf380-1d94-11ea-8309-a1d110c7cc69.png" />
+    <br /><br/>
+    숙명여자대학교 AWS WIC 해커톤 프로젝트
+    <br/>
     <b>지역 상인들의 숨겨진 이야기, SClass</b>
 </div>
 
-
+&nbsp;
 
 우리의 주변에는 많은 지역 시장들이 존재합니다. 그러나 이런 지역 시장들은 점점 우리의 기억 속에서 잊혀져 가고 있습니다. SClass는 지역 시장을 활성화시켜 해당 문제를 해결하기 위해 만들어졌습니다.
 
