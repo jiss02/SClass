@@ -129,6 +129,14 @@ $ git clone https://github.com/jiss02/SClass.git
 $ python manage.py migrate
 ```
 
+3. Create config folder and key.json
+
+```sh
+$ mkdir config
+$ cd config
+$ vim key.json
+```
+
 4. Run server
 
 ```
@@ -155,4 +163,31 @@ $ python manage.py runserver
 * superuser ID(for test) : admin
 * superuser PW : 1234
 
+<div align="center">
+
+| main 1|
+| :---: |
+| <img width="800" alt="" src="https://user-images.githubusercontent.com/42693808/70887518-870ce400-2021-11ea-8e23-335bc65db5cd.png"> |
+| main 2 |
+| <img width="800" alt="" src="https://user-images.githubusercontent.com/42693808/70887519-870ce400-2021-11ea-87be-23fe7bd107f6.png"> |
+| class list 1 |
+| <img width="800" alt="" src="https://user-images.githubusercontent.com/42693808/70887529-88d6a780-2021-11ea-942b-ac6810d29934.png"> |
+| class list 2 |
+| <img width="800" alt="" src="https://user-images.githubusercontent.com/42693808/70887531-896f3e00-2021-11ea-9008-ce085b14bfb3.png"> |
+| class detail 1 |
+| <img width="800" alt="" src="https://user-images.githubusercontent.com/42693808/70887527-88d6a780-2021-11ea-96a9-70692e742f1f.png"> |
+| 클래스가 열리는 상점을 지도에 표시해주며, 클래스 수강신청과 스크랩이 가능합니다. |
+| class detail 2 |
+| <img width="800" alt="" src="https://user-images.githubusercontent.com/42693808/70887528-88d6a780-2021-11ea-8ea0-58067f26d967.png"> |
+| myclass |
+| <img width="800" alt="" src="https://user-images.githubusercontent.com/42693808/70887522-87a57a80-2021-11ea-84a6-c8568543ef02.png"> |
+| mypage |
+| <img width="800" alt="" src="https://user-images.githubusercontent.com/42693808/70887523-883e1100-2021-11ea-8e83-5e58fbcd0f08.png"> |
+| store 1 |
+| <img width="800" alt="" src="https://user-images.githubusercontent.com/42693808/70887525-883e1100-2021-11ea-8554-44b7bc7869e7.png"> |
+| store 2 |
+| <img width="800" alt="" src="https://user-images.githubusercontent.com/42693808/70887526-883e1100-2021-11ea-9c24-eae82b853dde.png"> |
+| 지역 상인들의 스토리를 카드 뉴스 형식으로 보여줍니다. |
+
+</div>
 
